@@ -22,6 +22,6 @@ public class MaiarValar extends Character {
     @Override
     public String showInfoCharacter() {
         return super.showInfoCharacter() +
-                "Creación de poder: " + powerCreation
+                "Creación de poder: " + powerCreation;
     }
 }
