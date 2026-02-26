@@ -1,7 +1,7 @@
 
 # El señor de los anillos Java
 
-
+![Diagrama POO El señor de los anillos](LordRingsDiagram.drawio.png)
 
 ## Diagrama de Clases (**Jerarquia**)
 ## Description
