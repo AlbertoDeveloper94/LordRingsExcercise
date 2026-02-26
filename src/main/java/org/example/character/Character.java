@@ -22,14 +22,14 @@ public class Character {
         this.size = size;
     }
 
-    public void showInfoCharacter(){
-        System.out.println("Nombre del personaje: " + name);
-        System.out.println("Edad: " + age);
-        System.out.println("Vida: " + life);
-        System.out.println("Profesión: " + job);
-        System.out.println("Arma equipada: " + weapon);
-        System.out.println("Velocidad: " + speed);
-        System.out.println("Altura: " + size);
+    public String showInfoCharacter(){
+        return    "Nombre del personaje: " + name
+                + "Edad: " + age
+                + "Vida: " + life
+                + "Profesión: " + job
+                + "Arma equipada: " + weapon
+                + "Velocidad: " + speed
+                + "Altura: " + size;
     };
 
     public String getName() {
